@@ -25,6 +25,6 @@ https://www.transparenciapresupuestaria.gob.mx/es/PTP/programas#datos
 if (!require(devtools)) {
     install.packages("devtools")
 }
-devtools::install_github("Erickcufe/")
+devtools::install_github("Erickcufe/transparencia-presupuestaria-programas")
 ```
 
