@@ -19,9 +19,29 @@ usethis::use_data(Diccionario_MSD, overwrite = TRUE)
 
 # Avance de indicadores 2013-2020
 
+Avance_indicadores_2013_2020 <- readr::read_csv("../../../Descargas/prog_avance_de_indicadores.csv")
+usethis::use_data(Avance_indicadores_2013_2020, overwrite = TRUE)
+
 
 # Poblaciones objetivo de los programas
 
-cobertura_poblacional_2015 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2015-2016/prog_poblaciones_rop_2015.xlsx")
+cobertura_poblacional_2017 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2017/Poblaciones_potencial_objetivo_atendida_2017.xlsx")
+usethis::use_data(cobertura_poblacional_2017, overwrite = TRUE)
+
+cobertura_poblacional_2018 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2018/Poblaciones_Potencial_Objetivo_Atendida_2018.xlsx")
+cobertura_poblacional_2018 <- cobertura_poblacional_2018[-c(2,3,4), ]
+colnames(cobertura_poblacional_2018) <- cobertura_poblacional_2018[1,]
+cobertura_poblacional_2018 <- cobertura_poblacional_2018[-1,]
+usethis::use_data(cobertura_poblacional_2018, overwrite = TRUE)
 
 
+cobertura_poblacional_2019 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2019/Poblaciones_Potencial_Objetivo_2019.xlsx")
+cobertura_poblacional_2019 <- cobertura_poblacional_2019[-c(2,3,4), ]
+colnames(cobertura_poblacional_2019) <- cobertura_poblacional_2019[1,]
+cobertura_poblacional_2019 <- cobertura_poblacional_2019[-1,]
+usethis::use_data(cobertura_poblacional_2019, overwrite = TRUE)
+
+cobertura_poblacional_2020 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2020/Poblaciones_de_programas_de_desarrollo_social_2020.xlsx")
+colnames(cobertura_poblacional_2020) <- cobertura_poblacional_2020[1,]
+cobertura_poblacional_2020 <- cobertura_poblacional_2020[-1,]
+usethis::use_data(cobertura_poblacional_2020, overwrite = TRUE)
