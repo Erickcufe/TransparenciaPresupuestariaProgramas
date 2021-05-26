@@ -1,4 +1,5 @@
-# Transparencia Presupuestaria: Programas
+
+# Transparencia Presupuestaria: Programas  
 En esta sección podrás consultar los programas presupuestarios del gasto programable, el cual se destina a proveer bienes y servicios públicos a la población. Por programa presupuestario se entiende a la categoría que permite organizar, en forma representativa y homogénea, las asignaciones de recursos de los programas federales y del gasto federalizado a cargo de los ejecutores del mismo, para el cumplimiento de sus objetivos y metas. Puedes realizar filtros por palabra clave, por Ramo, Unidad Responsable, Modalidad, Clave y/o nivel de Desempeño, así como utilizar los botones para filtrar por alineación a las metas o estrategias transversales derivadas del Plan Nacional de Desarrollo o por su característica de ser programas bajo la responsabilidad de Organismos Autónomos o Empresas Productivas del Estado. Al dar clic en cada uno, podrás conocer la información detallada de ¿Cómo se gasta? ¿Quién lo gasta? ¿A qué contribuye? ¿Qué entrega? ¿Cuántos beneficiarios tiene? ¿Cuáles son sus proyectos de inversión? ¿Cuáles son sus resultados? A través de gráficos dinámicos, mapas, buscadores y descargas específicas.
 
 ## MSD
@@ -11,6 +12,8 @@ Contiene información de las características, metas así como de los avances de
 
 Los datos de los indicadores de los Programas Federales son extraidos directamente del Módulo PbR del Portal Aplicativo de la Secretaría de Hacienda de acuerdo con lo establecido en las fracciones I y II del artículo 283 del Reglamento de la Ley Federal de Presupuesto y Responsabilidad Hacendaria a fin de dar cumplimiento al artículo 111 de la Ley Federal de Presupuesto y Responsabilidad Hacendaria (LFPRH). Por otro lado, los datos de los indicadores de los Programas con gasto federalizado son extraidos directamente del sistema de información referido en la fracción II de la LFPRH. Los datos son publicados sin aplicar procesamiento alguno y son actualizados de manera mensual. 
 
+# Poblaciones objetivo 
+Esta paquetería contiene los datos de las poblaciones objetivo desde el año 2015 al 2020. 
 
 # Source 
 
