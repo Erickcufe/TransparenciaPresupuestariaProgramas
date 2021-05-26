@@ -5,4 +5,6 @@ El Modelo Sintético de Información de Desempeño (MSD), constituye un instrume
 
 El MSD hace una valoración general del desempeño de cada Pp, tomando en cuenta cinco variables que influyen en su comportamiento:  1. Ejercicio del Gasto (PEF).  2. Matriz de Indicadores para Resultados (MIR).  3. Evaluaciones externas del Programa Anual de Evaluación (PAE).  4. Aspectos Susceptibles de Mejora derivados de las Evaluaciones Externas (ASM) 5. Sistema Integral de Información de Padrones de Programas Gubernamentales (SIIPP-G). Para explicar de forma clara el modelo, se elaboró una Nota Metodológica donde se muestra cada una de las variables, su ponderación relativa y las fórmulas empleadas para obtener una valoración global de desempeño por cada Pp. (consultala en la siguiente liga: https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/SED/Avances/NotaMetodologica.zip)
 
+# Source 
 
+https://www.transparenciapresupuestaria.gob.mx/es/PTP/programas#datos
