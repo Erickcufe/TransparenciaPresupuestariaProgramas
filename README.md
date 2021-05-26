@@ -18,3 +18,13 @@ Esta paquetería contiene los datos de las poblaciones objetivo desde el año 20
 # Source 
 
 https://www.transparenciapresupuestaria.gob.mx/es/PTP/programas#datos
+
+## Installation
+
+```
+if (!require(devtools)) {
+    install.packages("devtools")
+}
+devtools::install_github("Erickcufe/")
+```
+
