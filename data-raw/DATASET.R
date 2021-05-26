@@ -17,8 +17,11 @@ colnames(Diccionario_MSD) <- c(Diccionario_MSD_names$`1.Título del documento`,
                                Diccionario_MSD_names$`Modelo Sintético de Información de Desempeño`)
 usethis::use_data(Diccionario_MSD, overwrite = TRUE)
 
+# Avance de indicadores 2013-2020
+
 
 # Poblaciones objetivo de los programas
 
+cobertura_poblacional_2015 <- readxl::read_xlsx("../../../Descargas/prog_poblaciones_rop_2015-2020/Poblaciones 2015-2016/prog_poblaciones_rop_2015.xlsx")
 
 
