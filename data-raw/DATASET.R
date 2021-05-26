@@ -45,3 +45,32 @@ cobertura_poblacional_2020 <- readxl::read_xlsx("../../../Descargas/prog_poblaci
 colnames(cobertura_poblacional_2020) <- cobertura_poblacional_2020[1,]
 cobertura_poblacional_2020 <- cobertura_poblacional_2020[-1,]
 usethis::use_data(cobertura_poblacional_2020, overwrite = TRUE)
+
+
+# Alineamiento con plan de desarrollo
+
+Alineacion_Estructuras_Programaticas_2014 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2014.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2014, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2015 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2015.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2015, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2016 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2016.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2016, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2017 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2017.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2017, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2018 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2018.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2018, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2019 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2019.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2019, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2020 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2020.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2020, overwrite = TRUE)
+
+Alineacion_Estructuras_Programaticas_2021 <- readxl::read_xlsx("../../../Descargas/Vinculacion_Programas_PlanNacional/Alineación de Estructuras Programáticas 2021.xlsx")
+usethis::use_data(Alineacion_Estructuras_Programaticas_2021, overwrite = TRUE)
+
+
