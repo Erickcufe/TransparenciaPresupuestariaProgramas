@@ -13,7 +13,7 @@ Contiene información de las características, metas así como de los avances de
 Los datos de los indicadores de los Programas Federales son extraidos directamente del Módulo PbR del Portal Aplicativo de la Secretaría de Hacienda de acuerdo con lo establecido en las fracciones I y II del artículo 283 del Reglamento de la Ley Federal de Presupuesto y Responsabilidad Hacendaria a fin de dar cumplimiento al artículo 111 de la Ley Federal de Presupuesto y Responsabilidad Hacendaria (LFPRH). Por otro lado, los datos de los indicadores de los Programas con gasto federalizado son extraidos directamente del sistema de información referido en la fracción II de la LFPRH. Los datos son publicados sin aplicar procesamiento alguno y son actualizados de manera mensual. 
 
 # Cobertura Poblacional
-Esta paquetería contiene los datos de las poblaciones objetivo desde el año 2015 al 2020. 
+Esta paquetería contiene los datos de las poblaciones objetivo desde el año 2017 al 2020. 
 
 # Source 
 
